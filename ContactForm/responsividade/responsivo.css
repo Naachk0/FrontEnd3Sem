@@ -1,0 +1,28 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;;
+}
+h1{
+color: blueviolet;
+
+img{
+width: 200px;
+
+}
+
+@media screen and(max-witdh: 991px){
+h1{
+    color: black;
+}
+
+}
+
+@media screen and(max-witdh: 767px){
+h1{
+    background-color: blue;
+    color: chartreuse;
+}
+}
+
+}
