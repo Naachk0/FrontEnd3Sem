@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo"> Bem Vindo</h1>
+    <p>Hello DOM JS</p>
+    <button onmousedown="saudacao();">Click aqui</button>
+    <button ondblclick="mouseCLiqueDuasVezes();">Click aqui 2 vezes</button>
+    <button onmouseup="saudacao();">Click aqui</button>
+    <button onmousedown="saudacao();">Click aqui</button>
+    <button onmouseover="saudacaoLegal();">Passe o mouse</button>
+
+    <script>
+        alert(`Titulo: ${document.getElementById("titulo").textContent}`)
+        //javscript é uma linguagem case sensitive
+        // por convencao usamos Camel Case
+        // maisculo a partit fa segunda palavra
+        function saudacao(){
+ alert("Hello World!");
+        }
+        function mouseCLiqueDuasVezes(){
+ alert("oioioioi!");
+        }
+        function saudacaoLegal(){ 
+    alert("내려놔 장비는 툭, 왔잖아, eyes on me, look, 고르지 오늘의 loop, 보여줘, call me Houdini, 홀려버리지 난 mind, I ain't never stop, sweep it all up, 막 쓸어 담아 cost, go 미치게, woah, 알잖아, 계속 찍어내 막 barcode 챙겨놔 bring my things, 안 받아, hotline bling 죽여, all 'em hits, 묶어, all 'em bands, I'ma— 808's so deep, they gon' fracture ribs,그 위에 얹어 meat, 요리해, special meal, 뱉어 난 gold and silver 만들어, masterpiece, 가치는 안 변하지 It's 'til I rest in peace Turn up, I fly, so higher than the sky, We go, 저 우주까지  라, going up Shoot for the stars like NASA, always going up like my stack Ready on your mark, go faster");
+        }
+    </script>
+    
+</body>
+</html>
