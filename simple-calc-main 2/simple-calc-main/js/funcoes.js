@@ -68,3 +68,24 @@ function dividir(valor1, valor2) {
 }
 
 
+const retorno = cadastrarConta();
+if (retorno) {
+    const dados =  document.getElementById("cadastro");
+contaMat    
+    dados.innerHTML += `<tr>    
+    <td>${n1}</td>
+    <td> ${n2}</td>
+    <td>${op}</td>
+    <td>${resultado}</td>
+    </tr>`;
+
+     document.getElementById("n1").value = "";
+     document.getElementById("n2").value = "";
+      document.getElementById("op").value = "";
+      document.getElementById("resultado").value = "";
+
+     alert(`A conta ${n1} com  ${n2} foi cadastrada`);
+    
+} else {
+    alert(`  Não foi possivel cadastrar no banco  `);
+    }   
