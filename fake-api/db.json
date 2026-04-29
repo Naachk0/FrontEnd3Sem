@@ -85,5 +85,21 @@
       "id": "Bl8SS9wuaB4"
     }
   ],
+  "calc": [
+   
+    {
+      "n1": 3,
+      "n2": 4,
+      "op": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {}
+      },
+      "resultado": "-1.00",
+      "id": "uHRocuMOKWk"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
