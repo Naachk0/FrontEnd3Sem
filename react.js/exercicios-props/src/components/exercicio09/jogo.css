@@ -1,0 +1,16 @@
+.card-perfil__image{
+width: 180px;
+height: 220px;
+box-shadow: 0 0 5px black;
+}
+
+.card-jogo{
+width: 230px;
+height: 340px;
+background-color: rgb(186, 78, 78);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+
+}
