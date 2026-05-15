@@ -1,0 +1,69 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Notebook",
+      "preco": 5000,
+      "descricao": "Notebook Gamer.",
+      "quantidade": 10,
+      "imagem": ""
+    },
+    {
+      "id": "2",
+      "nome": "Notebook",
+      "preco": 5000,
+      "descricao": "Notebook Gamer.",
+      "quantidade": 10,
+      "imagem": ""
+    },
+    {
+      "id": "4",
+      "nome": "Notebook",
+      "preco": 5000,
+      "descricao": "Notebook Gamer.",
+      "quantidade": 10,
+      "imagem": ""
+    },
+    {
+      "nome": "eee445",
+      "preco": 3,
+      "descricao": "edrftg",
+      "quantidade": 54,
+      "imagem": "image.jpg",
+      "id": "Io1GxtE3EsM"
+    },
+    {
+      "nome": "eee446",
+      "preco": 6,
+      "descricao": "edrftgtg",
+      "quantidade": 55,
+      "imagem": "image.jpg",
+      "id": "oKJlYcnH82Y"
+    },
+    {
+      "nome": "vcetge",
+      "preco": 243,
+      "descricao": "gfds",
+      "quantidade": 44,
+      "imagem": "image.jpg",
+      "id": "ZSJv1qIJgGg"
+    },
+    {
+      "nome": "vendxopwnbio",
+      "preco": 4485,
+      "descricao": "afiohgiohgi",
+      "quantidade": 3,
+      "imagem": "image.jpg",
+      "id": "t8ioGE6i148"
+    },
+    {
+      "nome": "g",
+      "preco": 6,
+      "descricao": "edrftg",
+      "quantidade": 6,
+      "imagem": "image.jpg",
+      "id": "87kHDt1etHs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
